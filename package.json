@@ -6,7 +6,8 @@
   "author": "xareyli",
   "license": "ISC",
   "scripts": {
-    "start": "nodemon index.js"
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
